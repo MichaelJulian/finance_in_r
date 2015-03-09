@@ -36,6 +36,6 @@ importPriceData <- function(symbol,interval,auth, days){
 # Replace 'auth' with your own auth token
 test.data.frame <- importPriceData(symbol='aapl',
                         interval='1min',
-                        auth='Bearer z07kZwwrPCqVtdfGeH3E080KfeQo', 7)
+                        auth='Bearer YOUR_AUTH_TOKEN', 7)
 
 head(test.data.frame)
